@@ -1,0 +1,170 @@
+---
+title: "Report Entom Forense"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+date: "2022-08-27"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message = FALSE, warning = FALSE)
+library(spData)
+library(raster)
+library(tidyverse)
+library(sf)
+library(tidyverse)
+library(geobr)
+library(tmap)
+library(lubridate)
+```
+
+## Mapa
+
+### Relacionar a ocorrência das espécies encontradas com a região de origem dos cadáveres humanos recepcionados pelo Instituto Médico Legal de Palmas, estado do Tocantins;
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+df <-
+  read.csv("casos_mun.csv")
+
+cases_by_city <- df %>%
+  group_by(mun) %>%
+  count() %>%
+  mutate(mun = tolower(mun))
+
+mun <- read_municipality(code_muni = "TO", year = 2010)
+
+mun <- mun %>%
+  mutate(name_muni_2 = tolower(name_muni))
+
+sf_with_cases <- mun %>%
+  left_join(cases_by_city, by = c("name_muni_2" = "mun")) %>%
+  replace_na(list(n = 0))
+
+mapa_casos <- tm_shape(sf_with_cases) +
+  tm_fill(col = "n", title = expression("Número de cadáveres"), palette = "GnBu") +
+  tm_borders() +
+  tm_compass(type = "8star", position = c("right", "top"), size = 2.5)
+# tm_scale_bar(breaks = c(0,50,100), text.size = 0.5, position = c("right", "bottom"))
+
+mapa_casos
+```
+
+### Análise Descritiva, média mediana e moda
+
+```{r echo=FALSE}
+casos <- read_csv('casos.csv')
+
+tabela_resumida <- casos %>% 
+  dplyr::select(espécie, abundância) %>%
+  group_by(espécie) %>%
+  summarise(abundancia = sum(abundância)) %>% 
+  arrange(abundancia) 
+
+tabela_resumida
+```
+
+### Quartis 1st Qu,; Median; 3rd Qu.
+
+```{r echo=FALSE}
+
+summary(tabela_resumida)  
+
+```
+
+### Determinar a ocorrência das espécies associadas aos cadáveres humanos recepcionados pelo Instituto Médico Legal de Palmas-TO, a cada mês, por um período de 13 meses;
+
+- Interessante ressaltar para os meses de Dezembro e julho, percebe-se uma maior abundância
+```{r, echo=FALSE}
+
+casos <- read_csv('casos.csv')
+
+casos$`data da coleta` <- as.POSIXct(casos$`data da coleta`, format = "%d/%m/%Y")
+
+casos_por_mes <- casos %>% 
+  group_by(mes = month(casos$`data da coleta`, label=TRUE)) %>%
+  summarise(Abundância = sum(abundância))
+  
+
+ggplot(casos_por_mes, aes(mes, Abundância, fill = Abundância)) +
+  geom_bar(binwidth = 1, stat = "identity") +
+  theme_light() +
+  #scale_fill_gradient(low = "lightgray", high = "black") +
+  #facet_wrap(~espécie) +
+  ylab("Abundância") +
+  xlab("Mês") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) +
+  coord_polar()+
+  theme_minimal()
+```
+
+### Relacionar a ocorrência das espécies encontradas ao tipo de ambiente de origem dos cadáveres humanos recepcionados pelo Instituto Médico Legal de Palmas, estado do Tocantins;
+
+
+```{r echo=FALSE}
+count_zone <- casos %>% 
+  group_by(`zona (rural/urbana)`) %>%
+  summarise(abundancia = sum(abundância),
+            riqueza = n_distinct(espécie)) %>% 
+  arrange(abundancia)
+```
+
+#### Abundância por zona
+
+```{r echo=FALSE}
+
+ggplot(count_zone) +
+ aes(x = `zona (rural/urbana)`, y = abundancia) +
+ geom_col(size=.1, fill="#69b3a2", color="black", alpha=.4) +
+ labs(y = "Abundância") +
+ theme_minimal()
+```
+
+#### Riqueza por zona
+
+```{r echo=FALSE}
+ggplot(count_zone) +
+ aes(x = `zona (rural/urbana)`, y = riqueza) +
+ geom_col(size=.1, fill="#69b3a2", color="black", alpha=.4) +
+ labs(y = "Riqueza") +
+ theme_minimal()
+```
+
+### Relacionar a ocorrência das espécies encontradas aos estágios de decomposição dos cadáveres humanos recepcionados pelo Instituto Médico Legal de Palmas-TO;
+
+
+```{r echo=FALSE}
+decomposição <- casos %>% 
+  group_by(`estágios de decomposição`) %>%
+  summarise(abundancia = sum(abundância),
+            riqueza = n_distinct(espécie)) %>% 
+  arrange(abundancia) 
+
+decomposição
+```
+
+#### Abundância
+
+```{r echo=FALSE}
+ggplot(decomposição) +
+ aes(x = reorder(`estágios de decomposição`, -abundancia), y = abundancia) +
+ geom_col(size=.1, fill="#69b3a2", color="black", alpha=.4) +
+ labs(x = "Estágios de decomposição", y = "Abundância") +
+ ggtitle("Abundância por estágio de decomposição") +
+ theme_minimal()
+```
+
+### Abundância
+
+```{r echo=FALSE}
+ggplot(decomposição) +
+ aes(x = reorder(`estágios de decomposição`, -riqueza), y = riqueza) +
+ geom_col(size=.1, fill="#69b3a2", color="black", alpha=.4) +
+ labs(x = "Estágios de decomposição", y = "Riqueza") +
+ ggtitle("Riqueza das espécies por estágio de decomposição") +
+ theme_minimal()
+```
+
+
