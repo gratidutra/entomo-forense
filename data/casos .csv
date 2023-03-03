@@ -1,0 +1,100 @@
+ID do caso,espécie,data da coleta ,abundância,município,Sexo,zona (rural/urbana),estágios de decomposição,indoor/outdoor,é recolonização? (sim/não)
+Caso 1,C. albiceps,26/01/2021,6,Aparecida do Rio Negro,MASCULINO,rural,gasoso,,N
+Caso 1,C. putoria,26/01/2021,1,Aparecida do Rio Negro,MASCULINO,rural,gasoso,,N
+Caso 1,H. illucens,26/01/2021,3,Aparecida do Rio Negro,MASCULINO,rural,gasoso,,N
+Caso 2,C. albiceps,18/02/2021,12,Porto Alegre do Tocantins,MASCULINO,rural,gasoso,,N
+Caso 2,C. megacephala,18/02/2021,14,Porto Alegre do Tocantins,MASCULINO,rural,gasoso,,N
+Caso 2,C. putoria,18/02/2021,1,Porto Alegre do Tocantins,MASCULINO,rural,gasoso,,N
+Caso 2,H. segmentaria,18/02/2021,1,Porto Alegre do Tocantins,MASCULINO,rural,gasoso,,N
+Caso 3,Retrocitomyia mizuguchiana,18/02/2021,7,Pedro Afonso,MASCULINO,rural,coliquativo,,N
+Caso 4,C. albiceps,14/03/2021,37,Miranorte,MASCULINO,urbana,fresco,,N
+Caso 4,C. megacephala,14/03/2021,94,Miranorte,MASCULINO,urbana,fresco,,N
+Caso 4,H. aenescens,14/03/2021,2,Miranorte,MASCULINO,urbana,fresco,,N
+Caso 4,Peckia chrysostoma,14/03/2021,1,Miranorte,MASCULINO,urbana,fresco,,N
+Caso 5,C. megacephala,21/03/2021,33,Pedro Afonso,MASCULINO,urbana,coliquativo,,N
+Caso 5,Sarcophagidae,21/03/2021,1,Pedro Afonso,MASCULINO,urbana,coliquativo,,N
+Caso 6,C. albiceps,01/04/2021,34,Taguatinga,MASCULINO,urbana,coliquativo,,N
+Caso 6,C. megacephala,01/04/2021,37,Taguatinga,MASCULINO,urbana,coliquativo,,N
+Caso 6,C. putoria,01/04/2021,1,Taguatinga,MASCULINO,urbana,coliquativo,,N
+Caso 6,C. macellaria,01/04/2021,1,Taguatinga,MASCULINO,urbana,coliquativo,,N
+Caso 6,H. segmentaria,01/04/2021,18,Taguatinga,MASCULINO,urbana,coliquativo,,N
+Caso 6,Sarcophagidae,01/04/2021,1,Taguatinga,MASCULINO,urbana,coliquativo,,N
+Caso 7,C. megacephala,10/04/2021,248,Miracema do Tocantins,MASCULINO,rural,carbonizado,,N
+Caso 8,C. albiceps,19/05/2021,110,Palmas,MASCULINO,rural,gasoso,,N
+Caso 8,H. segmentaria,19/05/2021,3,Palmas,MASCULINO,rural,gasoso,,N
+Caso 9,C. albiceps,19/05/2021,91,Peixe,MASCULINO,urbana,gasoso,,N
+Caso 9,C. megacephala,19/05/2021,11,Peixe,MASCULINO,urbana,gasoso,,N
+Caso 9,H. aenescens,19/05/2021,1,Peixe,MASCULINO,urbana,gasoso,,N
+Caso 10,C. albiceps,01/06/2021,161,Caseara,MASCULINO,urbana,gasoso,,N
+Caso 10,C. megacephala,01/06/2021,19,Caseara,MASCULINO,urbana,gasoso,,N
+Caso 11,C. albiceps,07/06/2021,28,Dianópolis,FEMININO,urbana,coliquativo,,N
+Caso 12,C. albiceps,10/06/2021,68,Porto Nacional,MASCULINO,rural,gasoso,,N
+Caso 13,C. albiceps,10/06/2021,254,Porto Nacional,FEMININO,rural,gasoso,,N
+Caso 13,C. megacephala,10/06/2021,4,Porto Nacional,FEMININO,rural,gasoso,,N
+Caso 13,C. putoria,10/06/2021,1,Porto Nacional,FEMININO,rural,gasoso,,N
+Caso 13,C. macellaria,10/06/2021,21,Porto Nacional,FEMININO,rural,gasoso,,N
+Caso 13,S. nudiseta,10/06/2021,1,Porto Nacional,FEMININO,rural,gasoso,,N
+Caso 14,C. albiceps,11/06/2021,153,Natividade,MASCULINO,urbana,gasoso,,N
+Caso 14,C. megacephala,11/06/2021,56,Natividade,MASCULINO,urbana,gasoso,,N
+Caso 14,H. segmentaria,11/06/2021,14,Natividade,MASCULINO,urbana,gasoso,,N
+Caso 14,S. nudiseta,11/06/2021,2,Natividade,MASCULINO,urbana,gasoso,,N
+Caso 15,C. albiceps,31/07/2021,294,Bom Jesus do Tocantins,MASCULINO,rural,gasoso,,N
+Caso 15,C. megacephala,31/07/2021,3,Bom Jesus do Tocantins,MASCULINO,rural,gasoso,,N
+Caso 16,C. albiceps,14/08/2021,71,Dueré,MASCULINO,rural,mumificado,,N
+Caso 17,C. albiceps,19/08/2021,149,Novo Alegre,MASCULINO,urbana,coliquativo,,N
+Caso 18,C. albiceps,22/08/2021,948,Lagoa da Confusão,MASCULINO,rural,fresco,,N
+Caso 18,C. megacephala,22/08/2021,4,Lagoa da Confusão,MASCULINO,rural,fresco,,N
+Caso 18,Peckia lambens,22/08/2021,3,Lagoa da Confusão,MASCULINO,rural,fresco,,N
+Caso 19,C. albiceps,02/09/2021,102,Taguatinga,MASCULINO,rural,gasoso,,N
+Caso 19,C. macellaria,02/09/2021,6,Taguatinga,MASCULINO,rural,gasoso,,N
+Caso 19,Peckia lambens,02/09/2021,8,Taguatinga,MASCULINO,rural,gasoso,,N
+Caso 20,C. albiceps,14/10/2021,580,Novo Alegre,MASCULINO,urbana,coliquativo,,N
+Caso 20,C. megacephala,14/10/2021,97,Novo Alegre,MASCULINO,urbana,coliquativo,,N
+Caso 21,C. albiceps,06/11/2021,276,Palmas,MASCULINO,rural,coliquativo,,N
+Caso 21,H. segmentaria,06/11/2021,1,Palmas,MASCULINO,rural,coliquativo,,N
+Caso 21,L. cuprina,06/11/2021,1,Palmas,MASCULINO,rural,coliquativo,,N
+Caso 21,H. aenescens,06/11/2021,73,Palmas,MASCULINO,rural,coliquativo,,N
+Caso 21,S. nudiseta,06/11/2021,3,Palmas,MASCULINO,rural,coliquativo,,N
+Caso 22,C. albiceps,13/11/2021,200,Palmas,MASCULINO,urbana,gasoso,,N
+Caso 22,C. megacephala,13/11/2021,230,Palmas,MASCULINO,urbana,gasoso,,N
+Caso 22,H. segmentaria,13/11/2021,1,Palmas,MASCULINO,urbana,gasoso,,N
+Caso 22,L. eximia,13/11/2021,1,Palmas,MASCULINO,urbana,gasoso,,N
+Caso 22,Fannia sp. (trimaculata),13/11/2021,2,Palmas,MASCULINO,urbana,gasoso,,N
+Caso 23,C. albiceps,20/11/2021,3,Gurupi,MASCULINO,urbana,carbonizado,,N
+Caso 23,C. megacephala,20/11/2021,79,Gurupi,MASCULINO,urbana,carbonizado,,N
+Caso 24,C. albiceps,24/11/2021,8,Alvorada,MASCULINO,urbana,gasoso,,N
+Caso 24,C. megacephala,24/11/2021,4,Alvorada,MASCULINO,urbana,gasoso,,N
+Caso 25,C. albiceps,25/11/2021,221,Palmas,FEMININO,urbana,gasoso,,N
+Caso 25,C. megacephala,25/11/2021,1,Palmas,FEMININO,urbana,gasoso,,N
+Caso 25,C. putoria,25/11/2021,2,Palmas,FEMININO,urbana,gasoso,,N
+Caso 26,C. albiceps,03/12/2021,834,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N
+Caso 26,C. megacephala,03/12/2021,9,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N
+Caso 26,C. macellaria,03/12/2021,1,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N
+Caso 27,C. albiceps,28/12/2021,798,Palmas,MASCULINO,rural,fresco,,N
+Caso 27,C. megacephala,28/12/2021,37,Palmas,MASCULINO,rural,fresco,,N
+Caso 28,C. albiceps,28/12/2021,114,Porto Nacional,MASCULINO,rural,restos,,N
+Caso 28,H. aenescens,28/12/2021,177,Porto Nacional,MASCULINO,rural,restos,,N
+Caso 28,H. illucens,28/12/2021,5,Porto Nacional,MASCULINO,rural,restos,,N
+Caso 29,C. albiceps,28/12/2021,62,Porto Nacional,MASCULINO,urbana,coliquativo,,N
+Caso 30,C. albiceps,08/01/2022,8,Almas,MASCULINO,rural,gasoso,,N
+Caso 30,C. macellaria,08/01/2022,1,Almas,MASCULINO,rural,gasoso,,N
+Caso 31,C. albiceps,08/01/2022,183,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N
+Caso 31,H. segmentaria,08/01/2022,18,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N
+Caso 32,C. albiceps,17/01/2022,281,Palmas,FEMININO,urbana,carbonizado,,N
+Caso 32,H. segmentaria,17/01/2022,2,Palmas,FEMININO,urbana,carbonizado,,N
+Caso 33,C. albiceps,13/02/2022,142,Barrolândia,MASCULINO,urbana,mumificado,,N
+Caso 33,P. casei,13/02/2022,12,Barrolândia,MASCULINO,urbana,mumificado,,N
+Caso 34,C. albiceps,14/02/2022,358,Dianópolis,MASCULINO,urbana,coliquativo,,N
+Caso 35,C. albiceps,14/02/2022,47,Dianópolis,MASCULINO,rural,restos,,N
+Caso 35,C. megacephala,14/02/2022,1,Dianópolis,MASCULINO,rural,restos,,N
+Caso 35,C. putoria,14/02/2022,1,Dianópolis,MASCULINO,rural,restos,,N
+Caso 35,H. aenescens,14/02/2022,11,Dianópolis,MASCULINO,rural,restos,,N
+Caso 39 ,C. albiceps,17/01/2022,357,Palmas,MASCULINO,urbana,gasoso,,S
+Caso 37 ,C. albiceps,11/06/2021,343,Palmas,MASCULINO,urbana,gasoso,,S
+Caso 37 ,H. segmentaria,11/06/2021,16,Palmas,MASCULINO,urbana,gasoso,,S
+Caso 37 ,H. aenescens,11/06/2021,27,Palmas,MASCULINO,urbana,gasoso,,S
+Caso 38 ,C. albiceps,08/01/2022,32,Palmas,MASCULINO,urbana,gasoso,,S
+Caso 40 ,L. cuprina,13/02/2022,75,Palmas,MASCULINO,urbana,mumificado,,S
+Caso 36,C. albiceps,24/04/2021,84,Palmas,MASCULINO,urbana,coliquativo,,S
+Caso 36,C. putoria,24/04/2021,1,Palmas,MASCULINO,urbana,coliquativo,,S
+Caso 36,L. eximia,24/04/2021,19,Palmas,MASCULINO,urbana,coliquativo,,S

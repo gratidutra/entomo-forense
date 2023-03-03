@@ -1,0 +1,113 @@
+ID_do_caso,especie,data_ a_coleta,estacao,abundancia,municipio,Sexo,zona_nao urbana_urbana,estagios_de_decomposicao,indoor_outdoor,recolonizacao,temp_media_da_data_do_encontro,temp_med_7_dias_da_data_do_encontro,umidade_media_da_data_do_encontro,umd_med_7_dias_da_data_do_encontro,chuva_acumulada_em_24h,chuva_acumulada_7_dias,Estacao_Met_Aut,estacao
+Caso 1,C. albiceps,26/01/2021,chuvosa,6,Aparecida do Rio Negro,MASCULINO,nao urbana,gasoso,,N,26.7,26.89,75.1,72.33,8.2,16.8,Palmas,chuvosa
+Caso 1,C. putoria,26/01/2021,chuvosa,1,Aparecida do Rio Negro,MASCULINO,nao urbana,gasoso,,N,26.7,26.89,75.1,72.33,8.2,16.8,Palmas,chuvosa
+Caso 1,H. illucens,26/01/2021,chuvosa,3,Aparecida do Rio Negro,MASCULINO,nao urbana,gasoso,,N,26.7,26.89,75.1,72.33,8.2,16.8,Palmas,chuvosa
+Caso 1,Peckia lambens,26/01/2021,chuvosa,1,Aparecida do Rio Negro,MASCULINO,nao urbana,gasoso,,N,26.7,26.89,75.1,72.33,8.2,16.8,Palmas,chuvosa
+Caso 1,P. trivittata,26/01/2021,chuvosa,4,Aparecida do Rio Negro,MASCULINO,nao urbana,gasoso,,N,26.7,26.89,75.1,72.33,8.2,16.8,Palmas,chuvosa
+Caso 2,C. albiceps,18/02/2021,chuvosa,12,Porto Alegre do Tocantins,MASCULINO,nao urbana,gasoso,,N,24.2,24.59,84.3,80.84,6,84.4,Paran�,chuvosa
+Caso 2,C. megacephala,18/02/2021,chuvosa,14,Porto Alegre do Tocantins,MASCULINO,nao urbana,gasoso,,N,24.2,24.59,84.3,80.84,6,84.4,Paran�,chuvosa
+Caso 2,C. putoria,18/02/2021,chuvosa,1,Porto Alegre do Tocantins,MASCULINO,nao urbana,gasoso,,N,24.2,24.59,84.3,80.84,6,84.4,Paran�,chuvosa
+Caso 2,H. segmentaria,18/02/2021,chuvosa,1,Porto Alegre do Tocantins,MASCULINO,nao urbana,gasoso,,N,24.2,24.59,84.3,80.84,6,84.4,Paran�,chuvosa
+Caso 3,Peckia chrysostoma,18/02/2021,chuvosa,2,Pedro Afonso,MASCULINO,nao urbana,coliquativo,,N,24.6,25.61,88.5,83,5.4,25.8,Pedro afonso,chuvosa
+Caso 3,Retrocitomyia mizuguchiana,18/02/2021,chuvosa,21,Pedro Afonso,MASCULINO,nao urbana,coliquativo,,N,24.6,25.61,88.5,83,5.4,25.8,Pedro afonso,chuvosa
+Caso 4,C. albiceps,14/03/2021,chuvosa,37,Miranorte,MASCULINO,urbana,fresco,,N,26.3,25.67,80.4,84.71,0.8,60.28,Rio Sono,chuvosa
+Caso 4,C. megacephala,14/03/2021,chuvosa,94,Miranorte,MASCULINO,urbana,fresco,,N,26.3,25.67,80.4,84.71,0.8,60.28,Rio Sono,chuvosa
+Caso 4,H. aenescens,14/03/2021,chuvosa,2,Miranorte,MASCULINO,urbana,fresco,,N,26.3,25.67,80.4,84.71,0.8,60.28,Rio Sono,chuvosa
+Caso 4,Peckia chrysostoma,14/03/2021,chuvosa,4,Miranorte,MASCULINO,urbana,fresco,,N,26.3,25.67,80.4,84.71,0.8,60.28,Rio Sono,chuvosa
+Caso 4,Retrocitomyia mizuguchiana,14/03/2021,chuvosa,1,Miranorte,MASCULINO,urbana,fresco,,N,26.3,25.67,80.4,84.71,0.8,60.28,Rio Sono,chuvosa
+Caso 5,C. megacephala,21/03/2021,chuvosa,33,Pedro Afonso,MASCULINO,urbana,coliquativo,,N,26.8,25.94,76.2,81.43,7.8,59.4,Pedro afonso,chuvosa
+Caso 5,Peckia chrysostoma,21/03/2021,chuvosa,5,Pedro Afonso,MASCULINO,urbana,coliquativo,,N,26.8,25.94,76.2,81.43,7.8,59.4,Pedro afonso,chuvosa
+Caso 5,Retrocitomyia mizuguchiana,21/03/2021,chuvosa,4,Pedro Afonso,MASCULINO,urbana,coliquativo,,N,26.8,25.94,76.2,81.43,7.8,59.4,Pedro afonso,chuvosa
+Caso 6,C. albiceps,01/04/2021,seca,34,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 6,C. megacephala,01/04/2021,seca,37,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 6,C. putoria,01/04/2021,seca,1,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 6,C. macellaria,01/04/2021,seca,1,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 6,H. segmentaria,01/04/2021,seca,18,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 6,Peckia chrysostoma,01/04/2021,seca,4,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 6,Peckia intermutans,01/04/2021,seca,1,Taguatinga,MASCULINO,urbana,coliquativo,,N,24.7,25.44,79.7,71.77,0,0,Dian�polis,seca
+Caso 7,C. megacephala,10/04/2021,seca,248,Miracema do Tocantins,MASCULINO,nao urbana,carbonizado,,N,28.3,27.83,63.8,69.44,0,5.6,Palmas,seca
+Caso 7,Peckia chrysostoma,10/04/2021,seca,10,Miracema do Tocantins,MASCULINO,nao urbana,carbonizado,,N,28.3,27.83,63.8,69.44,0,5.6,Palmas,seca
+Caso 8,C. albiceps,19/05/2021,seca,110,Palmas,MASCULINO,nao urbana,gasoso,,N,27.1,27.3,58,63.31,0,0.2,Palmas,seca
+Caso 8,H. segmentaria,19/05/2021,seca,3,Palmas,MASCULINO,nao urbana,gasoso,,N,27.1,27.3,58,63.31,0,0.2,Palmas,seca
+Caso 9,C. albiceps,19/05/2021,seca,91,Peixe,MASCULINO,urbana,gasoso,,N,25.2,25.41,64.7,64.11,0,0,Formoso do Araguaia,seca
+Caso 9,C. megacephala,19/05/2021,seca,11,Peixe,MASCULINO,urbana,gasoso,,N,25.2,25.41,64.7,64.11,0,0,Formoso do Araguaia,seca
+Caso 9,H. aenescens,19/05/2021,seca,1,Peixe,MASCULINO,urbana,gasoso,,N,25.2,25.41,64.7,64.11,0,0,Formoso do Araguaia,seca
+Caso 9,Peckia intermutans,19/05/2021,seca,2,Peixe,MASCULINO,urbana,gasoso,,N,25.2,25.41,64.7,64.11,0,0,Formoso do Araguaia,seca
+Caso 10,C. albiceps,01/06/2021,seca,161,Caseara,MASCULINO,urbana,gasoso,,N,26.1,26.17,65.3,66.37,0,0,Marian�polis,seca
+Caso 10,C. megacephala,01/06/2021,seca,19,Caseara,MASCULINO,urbana,gasoso,,N,26.1,26.17,65.3,66.37,0,0,Marian�polis,seca
+Caso 11,C. albiceps,07/06/2021,seca,28,Dianópolis,FEMININO,urbana,coliquativo,,N,24.4,24.7,57,53.46,0,0,Dian�polis,seca
+Caso 12,C. albiceps,10/06/2021,seca,68,Porto Nacional,MASCULINO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 12,Peckia chrysostoma,10/06/2021,seca,1,Porto Nacional,MASCULINO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 13,C. albiceps,10/06/2021,seca,254,Porto Nacional,FEMININO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 13,C. megacephala,10/06/2021,seca,4,Porto Nacional,FEMININO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 13,C. putoria,10/06/2021,seca,1,Porto Nacional,FEMININO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 13,C. macellaria,10/06/2021,seca,21,Porto Nacional,FEMININO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 13,S. nudiseta,10/06/2021,seca,1,Porto Nacional,FEMININO,nao urbana,gasoso,,N,27.8,27.83,54.1,52.91,0,0,Palmas,seca
+Caso 14,C. albiceps,11/06/2021,seca,153,Natividade,MASCULINO,urbana,gasoso,,N,25.2,24.71,53,55.56,0,0,Dian�polis,seca
+Caso 14,C. megacephala,11/06/2021,seca,56,Natividade,MASCULINO,urbana,gasoso,,N,25.2,24.71,53,55.56,0,0,Dian�polis,seca
+Caso 14,H. segmentaria,11/06/2021,seca,14,Natividade,MASCULINO,urbana,gasoso,,N,25.2,24.71,53,55.56,0,0,Dian�polis,seca
+Caso 14,S. nudiseta,11/06/2021,seca,2,Natividade,MASCULINO,urbana,gasoso,,N,25.2,24.71,53,55.56,0,0,Dian�polis,seca
+Caso 14,Peckia intermutans,11/06/2021,seca,2,Natividade,MASCULINO,urbana,gasoso,,N,25.2,24.71,53,55.56,0,0,Dian�polis,seca
+Caso 15,C. albiceps,31/07/2021,seca,294,Bom Jesus do Tocantins,MASCULINO,nao urbana,gasoso,,N,27.8,27.31,42.9,45.6,0,0,Palmas,seca
+Caso 15,C. megacephala,31/07/2021,seca,3,Bom Jesus do Tocantins,MASCULINO,nao urbana,gasoso,,N,27.8,27.31,42.9,45.6,0,0,Palmas,seca
+Caso 16,C. albiceps,14/08/2021,seca,71,Dueré,MASCULINO,nao urbana,mumificado,,N,25.4,24.8,63.5,63.79,0,0,Lagoa da Confus�o,seca
+Caso 17,C. albiceps,19/08/2021,seca,149,Novo Alegre,MASCULINO,urbana,coliquativo,,N,24.5,25.57,34.9,32.89,0,0,Dian�polis,seca
+Caso 18,C. albiceps,22/08/2021,seca,948,Lagoa da Confusão,MASCULINO,nao urbana,fresco,,N,24.2,24.54,61.8,58.51,0,0,Lagoa da Confus�o,seca
+Caso 18,C. megacephala,22/08/2021,seca,4,Lagoa da Confusão,MASCULINO,nao urbana,fresco,,N,24.2,24.54,61.8,58.51,0,0,Lagoa da Confus�o,seca
+Caso 18,Peckia lambens,22/08/2021,seca,10,Lagoa da Confusão,MASCULINO,nao urbana,fresco,,N,24.2,24.54,61.8,58.51,0,0,Lagoa da Confus�o,seca
+Caso 19,C. albiceps,02/09/2021,seca,102,Taguatinga,MASCULINO,nao urbana,gasoso,,N,26.4,27.37,41.7,35.44,0,0,Dian�polis,seca
+Caso 19,C. macellaria,02/09/2021,seca,6,Taguatinga,MASCULINO,nao urbana,gasoso,,N,26.4,27.37,41.7,35.44,0,0,Dian�polis,seca
+Caso 19,Peckia lambens,02/09/2021,seca,16,Taguatinga,MASCULINO,nao urbana,gasoso,,N,26.4,27.37,41.7,35.44,0,0,Dian�polis,seca
+Caso 20,C. albiceps,14/10/2021,chuvosa,580,Novo Alegre,MASCULINO,urbana,coliquativo,,N,27.9,29.66,62,51.41,8.6,8.6,Dian�polis,chuvosa
+Caso 20,C. megacephala,14/10/2021,chuvosa,97,Novo Alegre,MASCULINO,urbana,coliquativo,,N,27.9,29.66,62,51.41,8.6,8.6,Dian�polis,chuvosa
+Caso 20,Sarcophaga ruficornis,14/10/2021,chuvosa,3,Novo Alegre,MASCULINO,urbana,coliquativo,,N,27.9,29.66,62,51.41,8.6,8.6,Dian�polis,chuvosa
+Caso 21,C. albiceps,06/11/2021,chuvosa,276,Palmas,MASCULINO,nao urbana,coliquativo,,N,26,25.66,78.3,79.81,0,81,Gurupi,chuvosa
+Caso 21,H. segmentaria,06/11/2021,chuvosa,1,Palmas,MASCULINO,nao urbana,coliquativo,,N,26,25.66,78.3,79.81,0,81,Gurupi,chuvosa
+Caso 21,L. cuprina,06/11/2021,chuvosa,1,Palmas,MASCULINO,nao urbana,coliquativo,,N,26,25.66,78.3,79.81,0,81,Gurupi,chuvosa
+Caso 21,H. aenescens,06/11/2021,chuvosa,73,Palmas,MASCULINO,nao urbana,coliquativo,,N,26,25.66,78.3,79.81,0,81,Gurupi,chuvosa
+Caso 21,S. nudiseta,06/11/2021,chuvosa,3,Palmas,MASCULINO,nao urbana,coliquativo,,N,26,25.66,78.3,79.81,0,81,Gurupi,chuvosa
+Caso 22,C. albiceps,13/11/2021,chuvosa,200,Palmas,MASCULINO,urbana,gasoso,,N,24.6,24.84,84.5,84.57,2.2,55.8,Gurupi,chuvosa
+Caso 22,C. megacephala,13/11/2021,chuvosa,230,Palmas,MASCULINO,urbana,gasoso,,N,24.6,24.84,84.5,84.57,2.2,55.8,Gurupi,chuvosa
+Caso 22,H. segmentaria,13/11/2021,chuvosa,1,Palmas,MASCULINO,urbana,gasoso,,N,24.6,24.84,84.5,84.57,2.2,55.8,Gurupi,chuvosa
+Caso 22,L. eximia,13/11/2021,chuvosa,1,Palmas,MASCULINO,urbana,gasoso,,N,24.6,24.84,84.5,84.57,2.2,55.8,Gurupi,chuvosa
+Caso 22,Fannia sp. (trimaculata),13/11/2021,chuvosa,2,Palmas,MASCULINO,urbana,gasoso,,N,24.6,24.84,84.5,84.57,2.2,55.8,Gurupi,chuvosa
+Caso 23,C. albiceps,20/11/2021,chuvosa,3,Gurupi,MASCULINO,urbana,carbonizado,,N,25.8,25.21,81.4,83.34,9.2,73.6,Gurupi,chuvosa
+Caso 23,C. megacephala,20/11/2021,chuvosa,79,Gurupi,MASCULINO,urbana,carbonizado,,N,25.8,25.21,81.4,83.34,9.2,73.6,Gurupi,chuvosa
+Caso 24,C. albiceps,24/11/2021,chuvosa,8,Alvorada,MASCULINO,urbana,gasoso,,N,26.5,26.21,80.5,79.34,0,46.6,Gurupi,chuvosa
+Caso 24,C. megacephala,24/11/2021,chuvosa,4,Alvorada,MASCULINO,urbana,gasoso,,N,26.5,26.21,80.5,79.34,0,46.6,Gurupi,chuvosa
+Caso 24,Sarcophaga ruficornis,24/11/2021,chuvosa,10,Alvorada,MASCULINO,urbana,gasoso,,N,26.5,26.21,80.5,79.34,0,46.6,Gurupi,chuvosa
+Caso 25,C. albiceps,25/11/2021,chuvosa,221,Palmas,FEMININO,urbana,gasoso,,N,23.9,26.04,87.9,80.17,10.6,27.6,Gurupi,chuvosa
+Caso 25,C. megacephala,25/11/2021,chuvosa,1,Palmas,FEMININO,urbana,gasoso,,N,23.9,26.04,87.9,80.17,10.6,27.6,Gurupi,chuvosa
+Caso 25,C. putoria,25/11/2021,chuvosa,2,Palmas,FEMININO,urbana,gasoso,,N,23.9,26.04,87.9,80.17,10.6,27.6,Gurupi,chuvosa
+Caso 26,C. albiceps,03/12/2021,chuvosa,834,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N,25.7,26.03,83.5,78.44,21,50.6,Gurupi,chuvosa
+Caso 26,C. megacephala,03/12/2021,chuvosa,9,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N,25.7,26.03,83.5,78.44,21,50.6,Gurupi,chuvosa
+Caso 26,C. macellaria,03/12/2021,chuvosa,1,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N,25.7,26.03,83.5,78.44,21,50.6,Gurupi,chuvosa
+Caso 26,Sarcophaga ruficornis,03/12/2021,chuvosa,3,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N,25.7,26.03,83.5,78.44,21,50.6,Gurupi,chuvosa
+Caso 27,C. albiceps,04/12/2021,chuvosa,798,Palmas,MASCULINO,nao urbana,fresco,,N,25.7,26.03,83.5,78.44,21,50.6,Gurupi,chuvosa
+Caso 27,C. megacephala,04/12/2021,chuvosa,37,Palmas,MASCULINO,nao urbana,fresco,,N,25.7,26.03,83.5,78.44,21,50.6,Gurupi,chuvosa
+Caso 28,C. albiceps,28/12/2021,chuvosa,114,Porto Nacional,MASCULINO,nao urbana,restos,,N,25.8,25.67,82,83.57,0.6,38.6,Gurupi,chuvosa
+Caso 28,H. aenescens,28/12/2021,chuvosa,177,Porto Nacional,MASCULINO,nao urbana,restos,,N,25.8,25.67,82,83.57,0.6,38.6,Gurupi,chuvosa
+Caso 28,H. illucens,28/12/2021,chuvosa,5,Porto Nacional,MASCULINO,nao urbana,restos,,N,25.8,25.67,82,83.57,0.6,38.6,Gurupi,chuvosa
+Caso 29,C. albiceps,28/12/2021,chuvosa,62,Porto Nacional,MASCULINO,urbana,coliquativo,,N,23.8,25.57,89.8,83.61,27.8,67,Gurupi,chuvosa
+Caso 30,C. albiceps,08/01/2022,chuvosa,8,Almas,MASCULINO,nao urbana,gasoso,,N,24.9,24.04,89.7,91.89,0,230,Almas,chuvosa
+Caso 30,C. macellaria,08/01/2022,chuvosa,1,Almas,MASCULINO,nao urbana,gasoso,,N,24.9,24.04,89.7,91.89,0,230,Almas,chuvosa
+Caso 31,C. albiceps,08/01/2022,chuvosa,183,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N,23.2,24.97,93.3,85.64,21.4,94.2,Gurupi,chuvosa
+Caso 31,H. segmentaria,08/01/2022,chuvosa,18,Miracema do Tocantins,MASCULINO,urbana,gasoso,,N,23.2,24.97,93.3,85.64,21.4,94.2,Gurupi,chuvosa
+Caso 32,C. albiceps,17/01/2022,chuvosa,281,Palmas,FEMININO,urbana,carbonizado,,N,24.6,24.37,81.5,86.63,60.4,172,Gurupi,chuvosa
+Caso 32,H. segmentaria,17/01/2022,chuvosa,2,Palmas,FEMININO,urbana,carbonizado,,N,24.6,24.37,81.5,86.63,60.4,172,Gurupi,chuvosa
+Caso 33,C. albiceps,13/02/2022,chuvosa,142,Barrolândia,MASCULINO,urbana,mumificado,,N,25.3,25.67,90.8,89.79,9.4,104.4,Pium,chuvosa
+Caso 33,P. casei,13/02/2022,chuvosa,12,Barrolândia,MASCULINO,urbana,mumificado,,N,25.3,25.67,90.8,89.79,9.4,104.4,Pium,chuvosa
+Caso 34,C. albiceps,14/02/2022,chuvosa,358,Dianópolis,MASCULINO,nao urbana,coliquativo,,N,24.2,24.41,91.7,89.5,4.4,17.8,Almas,chuvosa
+Caso 35,C. albiceps,14/02/2022,chuvosa,47,Dianápolis,MASCULINO,nao urbana,restos,,N,24.2,24.41,91.7,89.5,4.4,17.8,Almas,chuvosa
+Caso 35,C. megacephala,14/02/2022,chuvosa,1,Dianápolis,MASCULINO,nao urbana,restos,,N,24.2,24.41,91.7,89.5,4.4,17.8,Almas,chuvosa
+Caso 35,C. putoria,14/02/2022,chuvosa,1,Dianápolis,MASCULINO,nao urbana,restos,,N,24.2,24.41,91.7,89.5,4.4,17.8,Almas,chuvosa
+Caso 35,H. aenescens,14/02/2022,chuvosa,11,Dianápolis,MASCULINO,nao urbana,restos,,N,24.2,24.41,91.7,89.5,4.4,17.8,Almas,chuvosa
+Caso 39,C. albiceps,17/01/2022,chuvosa,357,Palmas,MASCULINO,urbana,gasoso,,S,23.4,25.4,89.4,80.41,8.2,111,Gurupi,chuvosa
+Caso 37,C. albiceps,11/06/2021,seca,343,Palmas,MASCULINO,urbana,gasoso,,S,27.2,27.63,58.3,53.8,0,0,Palmas,seca
+Caso 37,H. segmentaria,11/06/2021,seca,16,Palmas,MASCULINO,urbana,gasoso,,S,27.2,27.63,58.3,53.8,0,0,Palmas,seca
+Caso 37,H. aenescens,11/06/2021,seca,27,Palmas,MASCULINO,urbana,gasoso,,S,27.2,27.63,58.3,53.8,0,0,Palmas,seca
+Caso 38,C. albiceps,08/01/2022,chuvosa,32,Palmas,MASCULINO,urbana,gasoso,,S,23.2,24.97,93.3,85.64,21.4,94.2,Gurupi,chuvosa
+Caso 40,L. cuprina,13/02/2022,chuvosa,75,Palmas,MASCULINO,urbana,mumificado,,S,25,25.04,83.5,83.9,16.4,53.8,Gurupi,chuvosa
+Caso 36,C. albiceps,24/04/2021,seca,84,Palmas,MASCULINO,urbana,coliquativo,,S,26,25.74,80.8,78.54,3.4,22.8,Palmas,seca
+Caso 36,C. putoria,24/04/2021,seca,1,Palmas,MASCULINO,urbana,coliquativo,,S,26,25.74,80.8,78.54,3.4,22.8,Palmas,seca
+Caso 36,L. eximia,24/04/2021,seca,19,Palmas,MASCULINO,urbana,coliquativo,,S,26,25.74,80.8,78.54,3.4,22.8,Palmas,seca

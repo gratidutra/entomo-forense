@@ -30,8 +30,9 @@ df <-
   read.csv("data/casos_3.csv")
 
 cases_by_city <- df %>%
-  group_by(mun= municipio)%>%
-  summarise(n= n_distinct(ID_do_caso)) %>%
+  rename(mun = municipio) %>%
+  group_by(mun) %>%
+  count() %>%
   mutate(mun = tolower(mun))
 
 mun <- read_municipality(code_muni = "TO", year = 2010)
@@ -82,13 +83,11 @@ summary(tabela_resumida)
 casos <- read_csv('data/casos_3.csv')
 
 casos$`data_ a_coleta` <- as.POSIXct(casos$`data_ a_coleta`, format = "%d/%m/%Y")
+casos$mes <- month(casos$`data_ a_coleta`, label=TRUE)
 
 casos_por_mes <- casos %>% 
   group_by(mes = month(casos$`data_ a_coleta`, label=TRUE)) %>%
-  summarise(Abundância = sum(abundancia),
-            Temperatura = mean(temp_med_7_dias_da_data_do_encontro),
-            Umidade = mean(umd_med_7_dias_da_data_do_encontro),
-            Chuva = mean(chuva_acumulada_7_dias))
+  summarise(Abundância = sum(abundancia))
   
 
 ggplot(casos_por_mes, aes(mes, Abundância, fill = Abundância)) +
@@ -102,23 +101,6 @@ ggplot(casos_por_mes, aes(mes, Abundância, fill = Abundância)) +
   coord_polar()+
   theme_classic()
 ```
-
-```{r}
-ylim.prim <- c(100, 1500)   # in this example, precipitation
-ylim.sec <- c(23, 31) 
-
-b <- diff(ylim.prim)/diff(ylim.sec)
-a <- ylim.prim[1] - (b*ylim.sec[1])
-
-ggplot(casos_por_mes, aes(mes, Abundância, group =1)) +
-  geom_col(size=.1, fill="#69b3a2", color="black", alpha=.4)+
-   geom_line(aes(y = a + Temperatura*b), color = "blue") +
-   scale_y_continuous("Abundância", sec.axis = sec_axis(~ (. - a)/b, name = "Temperatura")) +
-   scale_x_discrete("mes")  +
-   ggtitle("Abundância e Temperatura") +
- theme_classic()
-```
-
 
 ### Relacionar a ocorrência das espécies encontradas ao tipo de ambiente de origem dos cadáveres humanos recepcionados pelo Instituto Médico Legal de Palmas, estado do Tocantins;
 
